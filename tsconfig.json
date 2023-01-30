@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "baseUrl": "./src",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "target": "ES2019",
+      "lib": ["dom", "es2020"]
+    },
+    "exclude": [
+      "src.bu/**"
+    ]
+  }
