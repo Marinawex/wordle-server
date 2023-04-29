@@ -10,7 +10,7 @@ This is a simple word-guessing game built using React and Node Express.
 
 To run this project locally, you'll need to follow these steps:
 
-* Clone the repository to your local machine using git clone git@github.com:Marinawex/Wordle-react.git.
+* Clone the repository to your local machine using git clone git@github.com:Marinawex/wordle-server.git
 * Navigate to the project directory using cd <repository-name>.
 * Install the required dependencies using npm install.
 
