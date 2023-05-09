@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { WordsService } from '../services/wordsService';
-import { GameController } from '../controllers/GameController';
+import { GameController } from '../controllers/gameController';
 
 describe('GameController', () => {
   let controller: GameController;
