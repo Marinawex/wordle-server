@@ -1,14 +1,15 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist",
-      "baseUrl": "./src",
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
-      "target": "ES2019",
-      "lib": ["dom", "es2020"]
-    },
-    "exclude": [
-      "src.bu/**"
-    ]
-  }
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ES2020",
+    "lib": ["dom", "es2020"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src.bu/**"]
+}
